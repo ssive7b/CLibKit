@@ -1,0 +1,69 @@
+# === OS-specific ===
+.DS_Store           # macOS
+Thumbs.db           # Windows
+
+# === Build artifacts ===
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.lib
+*.exe
+*.out
+*.elf
+*.bin
+*.dSYM/
+*.stackdump
+*.map
+*.hex
+
+# === Compiled source ===
+*.lo
+*.la
+*.class
+
+# === Debug and logs ===
+*.log
+*.core
+*.gmon
+*.gcno
+*.gcda
+*.gcov
+
+# === Make and CMake ===
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# === IDE/project files ===
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+
+# === Test outputs ===
+test-results/
+*.test
+
+# === Backup files ===
+*~
+*.bak
+*.tmp
+
+# === Coverage tools ===
+coverage/
+*.gcov
+lcov.info
+
+# === Clang and Static Analysis ===
+.clangd/
+.clang-tidy
+.clang-format
+
+# === Custom local config ===
+.env
+config.local.h
